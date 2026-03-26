@@ -1,0 +1,243 @@
+# 📚 Smart Study Planner
+
+# Project Description
+
+Smart Study Planner is a Python-based application designed to help students prepare effectively for exams. Students often face difficulties in planning their syllabus, managing multiple subjects, tracking progress, and avoiding last-minute stress. This project solves these problems by automatically generating a personalized study schedule based on subjects, syllabus size, and exam date.
+
+The system intelligently distributes chapters across available days and generates a structured study plan. This helps students follow a consistent study routine and improves productivity.
+
+---
+
+# Problem Statement
+
+Students struggle to:
+
+• Plan syllabus effectively
+• Manage multiple subjects
+• Track study progress
+• Prepare before exams
+
+This project automatically generates a smart study plan based on:
+
+• Subjects
+• Syllabus size (number of chapters)
+• Exam date
+
+---
+
+# Objectives
+
+• Help students organize study schedules
+• Improve time management
+• Reduce last-minute exam stress
+• Increase productivity
+• Provide structured study planning
+
+---
+
+# Technologies Used
+
+• Python
+• Streamlit
+• Pandas
+• Datetime Module
+
+---
+
+# How the Project Works
+
+Step 1: User Inputs
+
+The user enters:
+
+• Number of subjects
+• Subject names
+• Number of chapters per subject
+• Exam date
+
+Example Input:
+
+Physics — 5 chapters
+Maths — 4 chapters
+Programming — 3 chapters
+Exam Date — 20 days later
+
+---
+
+Step 2: Calculation
+
+The program calculates:
+
+• Total chapters
+• Days remaining until exam
+• Study distribution across days
+
+The system then distributes chapters evenly across available days.
+
+---
+
+Step 3: Study Plan Generation
+
+The system generates:
+
+• Date-wise study plan
+• Subject-wise distribution
+• Chapter allocation
+
+Example Output:
+
+Day 1 — Physics Chapter 1
+Day 2 — Maths Chapter 1
+Day 3 — Programming Chapter 1
+Day 4 — Physics Chapter 2
+Day 5 — Maths Chapter 2
+
+---
+
+Step 4: Data Visualization
+
+The project also displays:
+
+• Study plan table
+• Progress bar chart
+• Total chapters overview
+
+This makes the plan easier to understand and follow.
+
+---
+
+# Explanation of the Code
+
+The project consists of the following main components:
+
+## 1. User Input Section
+
+The Streamlit interface collects:
+
+• Number of subjects
+• Subject names
+• Number of chapters
+• Exam date
+
+Streamlit provides an interactive interface without using HTML.
+
+---
+
+## 2. Date Calculation
+
+The datetime module calculates:
+
+Days Remaining = Exam Date − Current Date
+
+This determines how many study days are available.
+
+---
+
+## 3. Study Plan Logic
+
+The program:
+
+• Calculates total chapters
+• Distributes chapters sequentially
+• Assigns chapters to each day
+
+This ensures balanced workload and systematic preparation.
+
+---
+
+## 4. Output Display
+
+The system displays:
+
+• Study plan table
+• Subject-wise chapter count
+• Visual progress chart
+
+These outputs help students track progress easily.
+
+---
+
+# Features
+
+• Automatic study plan generation
+• Multiple subject management
+• Exam countdown
+• Balanced study schedule
+• Progress visualization
+• Simple and user-friendly interface
+
+---
+
+# Example Output
+
+Input:
+
+Subjects:
+Physics — 5 chapters
+Maths — 4 chapters
+Programming — 3 chapters
+
+Exam Date: 15 days later
+
+Output:
+
+Day 1 — Physics Chapter 1
+Day 2 — Maths Chapter 1
+Day 3 — Programming Chapter 1
+Day 4 — Physics Chapter 2
+Day 5 — Maths Chapter 2
+...
+
+Bar Chart Output:
+
+Physics — 5 chapters
+Maths — 4 chapters
+Programming — 3 chapters
+
+---
+
+# Pros of This Project
+
+✅ Solves real-world student problem
+✅ Improves time management
+✅ Reduces exam stress
+✅ Easy to use interface
+✅ Automatic planning
+✅ Expandable for future features
+✅ Beginner friendly
+✅ Resume-worthy project
+✅ Practical and useful application
+
+---
+
+# Future Enhancements
+
+• Study reminders
+• AI-based difficulty adjustment
+• Export to PDF
+• Mobile version
+• Login system
+• Progress tracking dashboard
+
+---
+
+# Applications
+
+• College students
+• School students
+• Competitive exam preparation
+• Self-study planning
+
+---
+
+# Conclusion
+
+Smart Study Planner is a practical and useful project that helps students organize their study schedule efficiently. By automatically generating a structured plan, the project improves productivity, reduces stress, and helps students prepare systematically for exams.
+
+---
+
+# Author
+
+Name:Shrestha Sarkar
+Course: B.Tech ECE(AI and cybernetics)
+Project Type: BYOP (Build Your Own Project)
